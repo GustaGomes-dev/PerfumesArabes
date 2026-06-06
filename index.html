@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arabian Essence | Perfumes Árabes Originais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="#inicio" class="logo">
+        <span class="logo-simbolo">✦</span>
+        <span>Arabian Essence</span>
+    </a>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#mais-vendidos">Mais Vendidos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio" class="banner">
+        <div class="banner-conteudo">
+            <span class="etiqueta">Perfumes árabes originais</span>
+            <h1>Fragrâncias intensas, elegantes e marcantes.</h1>
+            <p>Conheça perfumes árabes com excelente fixação, projeção e comparação olfativa com fragrâncias famosas do mundo.</p>
+
+            <div class="botoes-banner">
+                <a href="#catalogo" class="botao">Explorar Catálogo</a>
+                <a href="#contato" class="botao botao-secundario">Falar no WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="destaques" class="carrossel">
+        <div class="titulo-area">
+            <span>Seleção especial</span>
+            <h2>Perfumes em Destaque</h2>
+        </div>
+
+        <button class="seta seta-esquerda" onclick="voltarCarrossel()" aria-label="Voltar perfumes">❮</button>
+
+        <div class="container-carrossel" id="carrosselProdutos">
+
+            <article class="card-mini">
+                <img src="img/mandarin-sky.jpg" alt="mandarin-sky">
+                <h3>MandarinSky</h3>
+                <p>Inspirado em Scandal</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/asad.jpg" alt="Asad Lattafa">
+                <h3>Asad</h3>
+                <p>Inspirado em Sauvage Elixir</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/club-de-nuit-intense.jpg" alt="Club de Nuit Intense Man">
+                <h3>Club de Nuit Intense</h3>
+                <p>Inspirado em Creed Aventus</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/the-kingdom.jpg" alt="The Kingdom Lattafa">
+                <h3>The Kingdom</h3>
+                <p>Inspirado em Le Male Elixir</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/yara-lataffa.jpg" alt="Yara Lattafa">
+                <h3>Yara</h3>
+                <p>Inspirado em Bombshell Victória's Secret</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/vulcan-feu.jpg" alt="Vulcan Feu French Avenue">
+                <h3>Vulcan Feu</h3>
+                <p>Inspirado em God Of Fire</p>
+                <span>Unissex</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/club-de-nuit-untold.jpg" alt="Club de Nuit Untold Armaf">
+                <h3>Club de Nuit Untold</h3>
+                <p>Inspirado em Baccarat Rouge 540</p>
+                <span>Unissex</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/yara-elixir.jpg" alt="yara-elixir">
+                <h3>Yara Elixir</h3>
+                <p>Inspirado em Burberry Her Elixir</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/yara-moi.jpg" alt="Yara-moi">
+                <h3>Yara Moi</h3>
+                <p>Inspirado em Perfect</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/club-de-nuit-woman.jpg" alt="club-de-nuit-woman">
+                <h3>Club de Nuit Woman</h3>
+                <p>Inspirado em Mademoiselle</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/asad-elixir.jpg" alt="asad-elixir">
+                <h3>Asad Elixir</h3>
+                <p>Inspirado em Boss Bottled</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Afeef.jpg" alt="afeef">
+                <h3>Afeef</h3>
+                <p>Inspirado em Kirke</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Fakhar-Black.jpg" alt="Fakhar-Black">
+                <h3>Fakhar Black</h3>
+                <p>Inspirado em Y Eau Parfum</p>
+                <span>Masculino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Angham.jpg" alt="Angham">
+                <h3>Angham</h3>
+                <p>Inspirado em Goddess</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Angham-Second.jpg" alt="Angham-Second">
+                <h3>Angham Second</h3>
+                <p>Inspirado em Goddess</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/art-of-arabia.jpg" alt="art-of-arabia">
+                <h3>Art Of Arabia III</h3>
+                <p>Inspirado em The One Luminous Night</p>
+                <span>Unissex</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Atheeri.jpg" alt="Atheeri">
+                <h3>Atheeri</h3>
+                <p>Inspirado em Gucci Flora</p>
+                <span>Feminino</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Badee-Amethyst.jpg" alt="Badee-Amethyst">
+                <h3>Badee Amethyst</h3>
+                <p>Inspirado em Atomic Rose</p>
+                <span>Unissex</span>
+            </article>
+
+            <article class="card-mini">
+                <img src="img/Badee-Glory.jpg" alt="Badee-Glory">
+                <h3>Badee Al Oud Oud for Glory</h3>
+                <p>Inspirado em Oud for Greatness</p>
+                <span>Unissex</span>
+            </article>
+        </div>
+        </div>
+
+        <button class="seta seta-direita" onclick="avancarCarrossel()" aria-label="Avançar perfumes">❯</button>
+    </section>
+
+    <section id="catalogo" class="catalogo">
+        <div class="titulo-area">
+            <span>Catálogo completo</span>
+            <h2>Escolha por categoria</h2>
+        </div>
+
+        <div class="filtros">
+            <input type="text" id="campoBusca" placeholder="Buscar por perfume, marca ou inspirado em...">
+            <button class="ativo" onclick="filtrarPerfumes('todos', this)">Todos</button>
+            <button onclick="filtrarPerfumes('masculino', this)">Masculino</button>
+            <button onclick="filtrarPerfumes('feminino', this)">Feminino</button>
+            <button onclick="filtrarPerfumes('unissex', this)">Unissex</button>
+        </div>
+
+        <p id="mensagemSemResultado" class="sem-resultado">Nenhum perfume encontrado com esse filtro.</p>
+
+        <div class="lista-perfumes">
+            <h3 class="titulo-categoria categoria-masculino">Masculinos</h3>
+        <!-- INICIO DE PERFUMES MASCULINOS -->
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/club-urban.jpg" alt="Club de Nuit Urban Man Elixir">
+                    <h3>Club de Nuit Urban Man Elixir</h3>
+                    <h4>Armaf</h4>
+                    <p>Perfume masculino intenso, moderno e sofisticado, com perfil cítrico, especiado e amadeirado.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Poderosa</span><span>Ocasião: Noite</span></div>
+                    <p><strong>Notas:</strong> Bergamota, pimenta rosa, lavanda, âmbar, patchouli e cedro.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/sauvage.jpg" alt="Sauvage Dior">
+                    <h3>Sauvage</h3><p>Dior</p>
+                    <ul><li>Cítrico amadeirado</li><li>Toque especiado</li><li>Moderno e marcante</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/mandarin-sky.jpg" alt="Odyssey Mandarin Sky">
+                    <h3>Odyssey Mandarin Sky</h3>
+                    <h4>Armaf</h4>
+                    <p>Fragrância masculina moderna e envolvente que combina notas cítricas vibrantes com acordes doces e amadeirados.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Poderosa</span><span>Ocasião: Noite e eventos</span></div>
+                    <p><strong>Notas:</strong> Mandarina, laranja, bergamota, caramelo e fava tonka.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/scandal.jpg" alt="Scandal Jean Paul Gaultier">
+                    <h3>Scandal</h3><p>Jean Paul Gaultier</p>
+                    <ul><li>Cítrico</li><li>Doce</li><li>Aromático</li><li>Marcante</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/club-de-nuit-intense.jpg" alt="Club de Nuit Intense Man">
+                    <h3>Club de Nuit Intense Man</h3>
+                    <h4>Armaf</h4>
+                    <p>Fragrância masculina sofisticada e marcante, com frutas cítricas, notas amadeiradas e acordes defumados.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Alta</span><span>Ocasião: Versátil</span></div>
+                    <p><strong>Notas:</strong> Limão, abacaxi, bergamota, groselha preta, maçã, vidoeiro, jasmim, rosa, almíscar, âmbar cinzento, patchouli e baunilha.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/creed-aventus.jpg" alt="Creed Aventus">
+                    <h3>Creed Aventus</h3><p>Creed</p>
+                    <ul><li>Abacaxi</li><li>Cítrico</li><li>Amadeirado</li><li>Defumado</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/the-kingdom.jpg" alt="The Kingdom Lattafa">
+                    <h3>The Kingdom</h3>
+                    <h4>Lattafa</h4>
+                    <p>Fragrância masculina sofisticada, sensual e envolvente, com frescor aromático e base quente de baunilha, tabaco e fava tonka.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Muito Alta</span><span>Ocasião: Encontros</span></div>
+                    <p><strong>Notas:</strong> Lavanda, hortelã, sálvia, baunilha, tabaco, flor de laranjeira, fava tonka, benjoim e ládano.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/elixir.jpg" alt="Le Male Elixir">
+                    <h3>Le Male Elixir</h3><p>Jean Paul Gaultier</p>
+                    <ul><li>Baunilha</li><li>Tabaco</li><li>Ambarado</li><li>Sedutor</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/asad.jpg" alt="Asad Lattafa">
+                    <h3>Asad Tradicional</h3>
+                    <h4>Lattafa</h4>
+                    <p>Fragrância masculina intensa, sofisticada e marcante, com especiarias, notas ambaradas e madeiras nobres.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Alta</span><span>Ocasião: Noite</span></div>
+                    <p><strong>Notas:</strong> Pimenta preta, tabaco, abacaxi, patchouli, café, íris, baunilha, âmbar, madeira seca, benjoim e ládano.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/sauvage-elixir.jpg" alt="Sauvage Elixir Dior">
+                    <h3>Sauvage Elixir</h3><p>Dior</p>
+                    <ul><li>Pimenta preta</li><li>Tabaco</li><li>Café</li><li>Ládano</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/asad-elixir.jpg" alt="asad-elixir">
+                    <h3>Asad Elixir</h3>
+                    <h4>Lattafa</h4>
+                    <p>Asad Elixir é uma fragrância masculina intensa, sofisticada e extremamente envolvente. Combina especiarias nobres, criando uma assinatura elegante e poderosa para homens que gostam de perfumes marcantes.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Alta</span><span>Ocasião: Noite e Clima Ameno</span></div>
+                    <p><strong>Notas:</strong> tabaco, baunilha cremosa e resinas ambaradas.</p>
+                </div>
+
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Boss-Bottled.jpg" alt="Boss-Bottled">
+                    <h3>Boss Bottled Absolu</h3><p>Hugo Boss</p>
+                    <ul><li>Especiado</li><li>Oriental</li><li>Ambarado</li><li>Tabaco</li></ul>
+                </div>
+            </div>         
+
+            <div class="card-perfume masculino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Fakhar-Black.jpg" alt="Fakhar-Black">
+                    <h3>Fakhar Black</h3>
+                    <h4>Lattafa</h4>
+                    <p>Fakhar Black é uma fragrância masculina moderna, elegante e versátil. Combina frutas frescas, notas aromáticas e madeiras sofisticadas, resultando em um perfume limpo, refinado e extremamente agradável para qualquer ocasião.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Trabalho</span></div>
+                    <p><strong>Notas:</strong> Maçã, Bergamota e Gengibre.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Y-Eau-Parfum.jpg" alt="Y-Eau-Parfum">
+                    <h3>Y Eau de Parfum</h3><p>Yves Saint Laurent</p>
+                    <ul><li>Fresco</li><li>Frutado</li><li>Amadeirado</li><li>Aromático</li></ul>
+                </div>
+            </div>       
+    <!-- FIM DE PERFUMES MASCULINOS -->
+
+    <!-- INICIO DE PERFUMES FEMININOS -->
+            <h3 class="titulo-categoria categoria-feminino">Femininos</h3>
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/yara-lataffa.jpg" alt="Yara Lattafa">
+                    <h3>Yara</h3>
+                    <h4>Lattafa</h4>
+                    <p>Perfume feminino doce, cremoso e elegante, ideal para quem gosta de fragrâncias envolventes.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Média/Alta</span><span>Ocasião: Dia e noite</span></div>
+                    <p><strong>Notas:</strong> Baunilha, frutas tropicais, almíscar e notas florais.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/victoriasecrets-bombshell.jpg" alt="Bombshell Victoria's Secret">
+                    <h3>Bombshell</h3><p>Victoria's Secret</p>
+                    <ul><li>Doce cremoso</li><li>Feminino elegante</li><li>Uso versátil</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/yara-elixir.jpg" alt="Yara elixir">
+                    <h3>Yara Elixir</h3>
+                    <h4>Lattafa</h4>
+                    <p>Yara Elixir é uma fragrância feminina sofisticada, doce e envolvente, que combina frutas vermelhas, notas cremosas e uma deliciosa baunilha oriental. Um perfume marcante, elegante e perfeito para quem ama fragrâncias gourmand modernas.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Média/Alta</span><span>Ocasião: Encontros Românticos</span>
+                    </div>
+                    <p><strong>Notas:</strong> Oriental, Baunilha, Gourmand, Frutado, Feminino.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/burberry-her-elixir.jpg" alt="burberry-her-elixir">
+                    <h3>Burberry Her Elixir</h3><p>Burberry</p>
+                    <ul><li>Frutas Vermelhas</li><li>Rosas</li><li>Baunilha</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/yara-moi.jpg" alt="Yara-moi">
+                    <h3>Yara Moi</h3>
+                    <h4>Lattafa</h4>
+                    <p>Yara White é uma fragrância feminina sofisticada, cremosa e envolvente, que combina flores delicadas, frutas aveludadas e uma base quente de caramelo e madeiras. Um perfume elegante, moderno e extremamente confortável para o uso diário.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Média/Alta</span><span>Ocasião: Extremamente Versatil</span>
+                    </div>
+                    <p><strong>Notas:</strong> Floral, Frutado, Gourmand, Ambarado, Cremoso</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/perfect.jpg" alt="perfect">
+                    <h3>Perfect Intense </h3><p>Marc Jacobs</p>
+                    <ul><li>Jasmin</li><li>Pessego</li><li>Caramelo</li>
+                    <li>Sândalo</li></ul>
+                </div>
+            </div>  
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/club-de-nuit-woman.jpg" alt="club-de-nuit-woman">
+                    <h3>Club de Nuit Woman</h3>
+                    <h4>Armaf</h4>
+                    <p>Club de Nuit Woman de Armaf é um perfume Floral Frutado Feminino. As notas de topo são: Laranja, Bergamota, Toranja e Pêssego. As notas de coração são: Rosa, Jasmim, Lichia e Gerânio. As notas de fundo são: Patchouli, Almíscar, Baunilha e Vetiver..</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Média/Alta</span><span>Ocasião: Ocasiões especiais, jantares, reuniões ou eventos elegantes</span>
+                    </div>
+                    <p><strong>Notas:</strong> Rosa, Frutado, Gourmand, Lichia, Patchouli</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/mademoiselle.jpg" alt="mademoiselle">
+                    <h3>Mademoiselle  </h3><p>Chanel</p>
+                    <ul><li>Jasmin</li><li>Lichia</li><li>Rosa</li>
+                    <li>Sândalo</li></ul>
+                </div>
+            </div> 
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Afeef.jpg" alt="Afeef">
+                    <h3>Afeef</h3>
+                    <h4>Lataffa</h4>
+                    <p>Afeef é uma fragrância feminina luxuosa, envolvente e extremamente elegante. Combina frutas suculentas, flores brancas sofisticadas e uma base cremosa e adocicada, criando um perfume marcante e irresistível.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Alta</span><span>Ocasião: Eventos sofisticados</span>
+                    </div>
+                    <p><strong>Notas:</strong> Pêssego, Pimenta Rosa e Bergamota.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Kirke.jpg" alt="mademoiselle">
+                    <h3>Kirke</h3><p>Tiziana Terenzi</p>
+                    <ul><li>Frutado</li><li>Floral</li><li>Ambarado</li><li>Sofisticado</li></ul>
+                </div>
+            </div> 
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Angham.jpg" alt="Angham">
+                    <h3>Angham</h3>
+                    <h4>Lataffa</h4>
+                    <p>Angham é uma fragrância sofisticada e envolvente que combina notas especiadas, florais e gourmand. Um perfume elegante, moderno e extremamente confortável, perfeito para quem busca uma assinatura marcante e refinada.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Versátil e Sofisticado</span>
+                </div>
+                    <p><strong>Notas:</strong> Gengibre, Mandarina e Pimenta Rosa</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Goddess.jpg" alt="Goddess">
+                    <h3>Goddess</h3><p>Burberry</p>
+                    <ul><li>Oriental</li><li>Gourmand</li><li>Floral</li><li>Ambarado</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Angham-Second.jpg" alt="Angham-Second">
+                    <h3>Angham Second Song</h3>
+                    <h4>Lataffa</h4>
+                    <p>Angham é uma fragrância sofisticada e envolvente que combina notas especiadas, florais e gourmand. Um perfume elegante, moderno e extremamente confortável, perfeito para quem busca uma assinatura marcante e refinada.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Versátil e Romântica</span>
+                </div>
+                    <p><strong>Notas:</strong> Flor de Pêra e Bergamota. As notas de coração são: Peônia, Flor de Laranjeira e Pralinê.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Goddess.jpg" alt="Goddess">
+                    <h3>Devotion Eau de Parfum Intense
+                    </h3><p>Dolce & Gabbana</p>
+                    <ul><li>Floral</li><li>Cremoso</li><li>Frutado</li><li>Gourmand</li></ul>
+                </div>
+            </div> 
+
+            <div class="card-perfume feminino">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Atheeri.jpg" alt="Angham-Second">
+                    <h3>Atheeri</h3>
+                    <h4>Lataffa</h4>
+                    <p>Atheeri é uma fragrância feminina radiante e sofisticada que combina flores delicadas, frutas exóticas e uma base cremosa de baunilha. Um perfume alegre, elegante e perfeito para mulheres que gostam de fragrâncias suaves, femininas e muito elogiadas.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Dia a Dia e Climas Quentes</span>
+                </div>
+                    <p><strong>Notas:</strong>Flor de Maracujá e Gota de Orvalho. As notas de coração são: Orquídea e Jasmim. As notas de fundo são: Baunilha e Madeira de Âmbar.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/gucci-flora.jpg" alt="gucci-flora">
+                    <h3>Gucci Flora Gorgeous Orchid</h3><p>Gucci</p>
+                    <ul><li>Flor de Maracujá</li><li>Orquidea</li><li>Gota de Orvalho</li><li>Frutado</li></ul>
+                </div>
+            </div> 
+    <!-- FIM DE PERFUMES FEMININOS -->
+
+    <!-- INICIO DE PERFUMES UNISSEX -->
+            <h3 class="titulo-categoria categoria-unissex">Unissex</h3>
+
+            <div class="card-perfume unissex">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/club-de-nuit-untold.jpg" alt="Club de Nuit Untold">
+                    <h3>Club de Nuit Untold</h3>
+                    <h4>Armaf</h4>
+                    <p>Perfume unissex sofisticado, adocicado e marcante, muito procurado por sua presença elegante.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Especial</span></div>
+                    <p><strong>Notas:</strong> Açafrão, âmbar, madeira, almíscar e notas doces.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/baccarat-rouge-540.jpg" alt="Baccarat Rouge 540">
+                    <h3>Baccarat Rouge 540</h3><p>Maison Francis Kurkdjian</p>
+                    <ul><li>Âmbar adocicado</li><li>Sofisticado</li><li>Marcante</li></ul>
+                </div>
+            </div>
+
+            <div class="card-perfume unissex">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/vulcan-feu.jpg" alt="Vulcan Feu French Avenue">
+                    <h3>Vulcan Feu</h3>
+                    <h4>French Avenue</h4>
+                    <p>Fragrância compartilhável tropical, vibrante e sofisticada, com manga, limão, gengibre e nuances florais.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Noites especiais</span></div>
+                    <p><strong>Notas:</strong> Manga, limão, gengibre, ruibarbo, jasmim, pimenta rosa, pralinê e violeta.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/god-of-fire.jpg" alt="God Of Fire">
+                    <h3>God Of Fire</h3><p>Stéphane Humbert Lucas</p>
+                    <ul><li>Manga</li><li>Limão</li><li>Gengibre</li><li>Tropical premium</li></ul>
+                </div>
+            </div>
+
+           <div class="card-perfume unissex">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/art-of-arabia.jpg" alt="art-of-arabia">
+                    <h3>Art Of Arabia III</h3>
+                    <h4>Lataffa</h4>
+                    <p>Art of Arabia III é uma fragrância masculina luxuosa, misteriosa e marcante. Sua combinação de tâmaras, tabaco, baunilha e resinas orientais cria uma assinatura rica e sofisticada, perfeita para quem busca exclusividade e presença.</p>
+                    <div class="detalhes"><span>Fixação: Muito Alta</span><span>Projeção: Alta</span><span>Ocasião: Noite e Ocasiões Especiais</span></div>
+                    <p><strong>Notas:</strong>Olíbano, Davana e Bergamota. As notas de coração são: Tâmaras, Tabaco, Sândalo e Tuberosa. As notas de fundo são: Mirra, Baunilha, Fava Tonka, Ládano e Patchouli.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Luminous-Night.jpg" alt="Luminous-Night">
+                    <h3>The One Luminous Night</h3><p>Dolce & Gabbana</p>
+                    <ul><li>Ambarado</li><li>Tabaco</li><li>Doce</li><li>Amadeirado</li></ul>
+                </div>
+            </div>
+
+           <div class="card-perfume unissex">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Badee-Amethyst.jpg" alt="Badee-Amethyst">
+                    <h3>Badee Al Oud Amethyst</h3>
+                    <h4>Lataffa</h4>
+                    <p>Badee Al Oud Amethyst é uma fragrância é uma fragrância sofisticada, intensa e extremamente envolvente. A combinação de rosas luxuosas, oud elegante e baunilha cremosa cria um perfume marcante, sensual e muito refinado.</p>
+                    <div class="detalhes"><span>Fixação: Alta</span><span>Projeção: Alta</span><span>Ocasião: Noite e Ocasiões Especiais</span></div>
+                    <p><strong>Notas:</strong>Pimenta Rosa e Bergamota. As notas de coração são: Rosa Turca, Rosa Búlgara e Jasmim. As notas de fundo são: Agarwood (Oud), Âmbar e Baunilha.</p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Atomic-Rose.jpg" alt="Atomic-Rose">
+                    <h3>Atomic Rose</h3><p>Initio Parfums Prives</p>
+                    <ul><li>Pimenta Rosa</li><li> Rosa Búlgara</li><li>Bergamota</li><li>Floral</li></ul>
+                </div>
+            </div>
+
+           <div class="card-perfume unissex">
+                <div class="original">
+                    <span class="selo">100% Original</span>
+                    <img src="img/Badee-Glory.jpg" alt="Badee-Glory">
+                    <h3>Badee Al Oud Oud for Glory</h3>
+                    <h4>Lataffa</h4>
+                    <p>Badee Al Oud Amethyst é uma fragrância é uma fragrância sofisticada, intensa e extremamente envolvente. A combinação de rosas luxuosas, oud elegante e baunilha cremosa cria um perfume marcante, sensual e muito refinado.</p>
+                    <div class="detalhes"><span>Fixação: Extremamente Alta</span><span>Projeção: Alta</span><span>Ocasião: Noite e Ocasiões Especiais</span></div>
+                    <p><strong>Notas:</strong>Açafrão, Noz-moscada e Lavanda. As notas de coração são: Agarwood (Oud) e Patchouli. As notas de fundo são: Agarwood (Oud), Patchouli e Almíscar.
+                    </p>
+                </div>
+                <div class="inspirado">
+                    <h4>Similaridade olfativa</h4>
+                    <img src="img/Oud-for-Greatness.jpg" alt="Oud-for-Greatness">
+                    <h3>Oud for Greatness</h3><p>Initio Parfums Prives</p>
+                    <ul><li>Noz-moscada</li><li>Açafrão</li><li>Lavanda</li><li>Luxuoso</li></ul>
+                </div>
+            </div>
+    <!-- FIM DE PERFUMES UNISSEX -->
+        </div>
+    </section>
+
+    <section id="mais-vendidos" class="mais-vendidos">
+        <div class="titulo-area">
+            <span>Ranking</span>
+            <h2>Mais Vendidos</h2>
+        </div>
+
+        <div class="ranking">
+            <div><strong>🥇 Club de Nuit Intense Man</strong><span>Elegante, frutado, amadeirado e muito versátil.</span></div>
+            <div><strong>🥈 Asad - Lattafa</strong><span>Intenso, especiado e ideal para noites marcantes.</span></div>
+            <div><strong>🥉 Yara - Lattafa</strong><span>Doce, cremoso e feminino.</span></div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="titulo-area">
+            <span>Originalidade</span>
+            <h2>Sobre nossos perfumes</h2>
+        </div>
+        <p>Trabalhamos com perfumes árabes 100% originais. As comparações com perfumes famosos servem apenas como referência olfativa, ajudando o cliente a entender o estilo da fragrância.</p>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="titulo-area">
+            <span>Atendimento</span>
+            <h2>Gostou de algum perfume?</h2>
+        </div>
+        <p>Consulte disponibilidade pelo WhatsApp e escolha sua próxima fragrância.</p>
+        <a href="https://wa.me/5511942811605" target="_blank" class="botao">Chamar no WhatsApp</a>
+    </section>
+</main>
+
+<a href="https://wa.me/5511942811605" target="_blank" class="whatsapp" aria-label="Chamar no WhatsApp">💬</a>
+<a href="#inicio" class="topo" aria-label="Voltar ao topo">⌃</a>
+
+<footer>
+    <p>© 2026 Arabian Essence - Perfumes Árabes Originais</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
